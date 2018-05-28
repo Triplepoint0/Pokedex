@@ -1,0 +1,329 @@
+html {
+  background: rgb(248, 248, 248);
+  color: #252525;
+}
+
+#tname {
+  font-size: 40px;
+  margin-left: 352px;
+  width: 408px;
+  height: 60px;
+  margin-top: 15px;
+}
+
+#mainb {
+  background: url(pkmn.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  position: absolute;
+  color: #252525;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: #252525;
+}
+
+/*the statbox will hold all items including, img, name,atk, def, hp*/
+
+#statbox {
+  padding: 25px;
+  background: url(pkmn.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  background-color: rgb(248, 248, 248);
+}
+
+#statbox2 {
+  width: 1400px;
+  height: 720px;
+  position: relative;
+  color: #252525;
+}
+
+/* this is the container that will hold the img and the Pokemon name*/
+
+#pkmngif {
+  width: 280px;
+  height: 280px;
+  color: black;
+  display: flex;
+  position: absolute;
+  font-size: 5px;
+  background-color: olive;
+}
+
+#infobox {
+  width: 100%;
+  height: 739px;
+  background: rgb(248, 248, 248);
+  display: flex;
+  margin-left: 531px;
+  font-size: 50px;
+  margin-top: -31px;
+}
+
+header.pname {
+  font-size: 40px;
+  margin-left: 352px;
+  width: 408px;
+  height: 60px;
+  margin-top: 15px;
+}
+
+/*i've created this div in order to hold the name of the pokemon*/
+
+div.pkmnname {
+  height: 60px;
+  width: 398px;
+  font-size: 50px;
+  padding: 10px 0px 0px 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#nxtbtn {
+  font-size: 25px;
+  margin-top: -31px;
+}
+
+#pkmnstats {
+  width: 333px;
+  height: 322px;
+  /*background-color: rgba(71, 61, 139, 0.459);*/
+  margin-top: 217px;
+  position: relative;
+}
+
+div.barone {
+  width: 320px;
+  background-color: rgba(128, 128, 128, 0.233);
+  border: 1px solid black;
+  margin-top: 128px;
+  height: 17px;
+}
+
+section {
+  &.barone {
+    width: 320px;
+    background-color: rgba(128, 128, 128, 0.233);
+    border: 1px solid black;
+    margin-top: 128px;
+    height: 17px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 39px;
+  }
+  &.bartwo {
+    width: 320px;
+    background-color: rgba(128, 128, 128, 0.233);
+    border: 1px solid black;
+    margin-top: 461px;
+    margin-left: 39px;
+    height: 17px;
+    position: absolute;
+  }
+}
+
+div.bartwo {
+  width: 320px;
+  background-color: rgba(128, 128, 128, 0.233);
+  border: 1px solid black;
+  margin-top: 71px;
+  height: 17px;
+}
+
+section {
+  &.hitpoints {
+    width: 240px;
+    background-color: plum;
+    border: 1px solid black;
+    height: 13px;
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 520px;
+  }
+  &.abilitybar {
+    width: 320px;
+    border: 1px solid black;
+    background-color: rgba(71, 61, 139, 0.459);
+    position: absolute;
+    margin-top: 546px;
+    margin-left: 39px;
+    height: 135px;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+}
+
+#abs {
+  font-size: 41px;
+  margin-top: 26px;
+}
+
+div {
+  &.atkbar {
+    background-color: firebrick;
+    text-align: right;
+    padding-right: 2px;
+    color: whitesmoke;
+    height: 15px;
+  }
+  &.defbar {
+    background-color: dodgerblue;
+    text-align: right;
+    padding-right: 2px;
+    color: whitesmoke;
+    height: 17px;
+  }
+}
+
+section {
+  &.defbar {
+    background-color: dodgerblue;
+    text-align: right;
+    padding-right: 2px;
+    color: whitesmoke;
+  }
+  &.hpbar {
+    display: flex;
+    align-items: flex-end;
+    width: 239px;
+    height: 11px;
+    background-color: plum;
+    margin-left: 486px;
+    position: relative;
+    margin-top: 115px;
+  }
+}
+
+div.hp {
+  background-color: #04F404;
+  height: 11px;
+  font-size: 11px;
+  text-align: right;
+}
+
+section#hitpoints {
+  display: flex;
+  align-items: flex-end;
+  width: 239px;
+  height: 36px;
+  /*background-color: rgba(221, 160, 221, 0.137);*/
+  margin-left: 475px;
+  position: relative;
+  margin-top: 30px;
+  font-size: 44px;
+  text-align: right;
+}
+
+div.row {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+}
+
+#pkmngif2 {
+  width: 800px;
+  height: 740px;
+  display: flex;
+  position: absolute;
+  font-size: 5px;
+}
+
+img.train {
+  width: 280px;
+  height: 240px;
+}
+
+#wt {
+  width: 800px;
+  padding: 0 10px 0 10px;
+  border: solid #252525 10px;
+}
+
+section {
+  &.abitxt {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 490px;
+    margin-left: 39px;
+  }
+  &.no {
+    position: absolute;
+    font-size: 34px;
+    margin-top: 236px;
+    margin-left: 123px;
+  }
+  &.pkimg {
+    width: 280px;
+    height: 240px;
+    margin-left: 10px;
+  }
+}
+
+span {
+  &.lvl {
+    position: absolute;
+    font-size: 40px;
+    width: 408px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  &.lvl2 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 550px;
+    width: 408px;
+    height: 60px;
+  }
+}
+
+section.type {
+  width: 300px;
+  height: 45px;
+  position: absolute;
+  margin-top: 383px;
+  margin-left: 409px;
+  font-size: 40px;
+}
+
+img.pkball {
+  width: 100px;
+  height: 100px;
+}
+
+section.pkbt {
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 681px;
+  a {
+    display: block;
+    &:hover {
+      animation-name: shake;
+      animation-duration: 1s;
+      animation-fill-mode: infinite;
+    }
+  }
+}
+
+@keyframes shake {
+  20% {
+    transform: translateY(0px);
+  }
+
+  40% {
+    transform: translateY(-15px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
